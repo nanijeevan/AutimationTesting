@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="eLApplication.ELProfilePage">
+        <methods>
+          <include name="FunctionalityofCloseIconInUploadProfilePhotoPage"/>
+          <include name="FunctionalityofRemovePhotoLink"/>
+          <include name="FunctionalityOfResetPasswordwithInValidPassword"/>
+          <include name="FunctionalityOfResetPasswordwithOutEnteringtheData"/>
+          <include name="ResetPassword"/>
+          <include name="UpdateProfilebychangingFirstName"/>
+          <include name="FunctionalityofUploadbuttonInUpdateProfilePhotoPage"/>
+          <include name="ProfileDropDown"/>
+          <include name="FunctionalityOfResetPasswordwithLessthan8digits"/>
+          <include name="UpdateProfilebychangingalltheFields"/>
+          <include name="FunctionalityofCloseIconInViewProfilePhoto"/>
+          <include name="FunctionalityOfUpdateProfilewithoutChangingdetails"/>
+          <include name="FunctionalityofCameraIcon"/>
+          <include name="FunctionalityofRemovingthePhoto"/>
+          <include name="closebrowser"/>
+          <include name="UpdateProfilebychangingLastName"/>
+          <include name="FunctionalityOfResetPasswordtab"/>
+          <include name="UpdateProfilebychangingPhoneNumber"/>
+          <include name="FunctionalityOfCopyingUserID"/>
+          <include name="FunctionalityOfResetPasswordWithOutConfirmPassword"/>
+          <include name="FunctionalityofViewPhoto"/>
+          <include name="setup"/>
+          <include name="FunctionalityOfResetPasswordbyWrongConfirmPassword"/>
+          <include name="UpdateProfilebychangingEmail"/>
+          <include name="FunctionalityofUploadPhoto"/>
+          <include name="ProfilePageNavigation"/>
+        </methods>
+      </class> <!-- eLApplication.ELProfilePage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

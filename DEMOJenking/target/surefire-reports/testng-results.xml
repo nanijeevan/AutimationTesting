@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T18:28:45 IST" name="Suite" finished-at="2023-02-08T18:28:53 IST" duration-ms="7326">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T18:28:45 IST" name="Test" finished-at="2023-02-08T18:28:53 IST" duration-ms="7326">
+      <class name="com.jenkins.DEMOJenking.CreateSchool">
+        <test-method signature="login()[pri:1, instance:com.jenkins.DEMOJenking.CreateSchool@4386f16]" started-at="2023-02-08T18:28:45 IST" name="login" finished-at="2023-02-08T18:28:53 IST" duration-ms="7269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.jenkins.DEMOJenking.CreateSchool -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
